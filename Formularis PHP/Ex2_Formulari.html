@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+<form action="Ex2.php" method="POST">
+    <fieldset>
+        <legend>Login:</legend>
+        <input name="nom" type="text" placeholder="Nom" required/><br/>
+        <input name="cognoms" type="text" placeholder="Cognoms" required/><br/>
+        <input name="dataNaixement" type="date" placeholder="Data neixament" required/><br/>
+        <input name="correu" type="email" placeholder="Adreça de correu electrònic" required/><br/>
+        <input name="telf" type="tel" placeholder="Telefon" required/><br/>
+        <input name="codiPostal" type="text" placeholder="Adreça postal" pattern="[0-9]{5}" required/><br/>
+        <input name="dni" type="text" placeholder="DNI" pattern="[0-9]{8}[A-z]" required/><br/>
+        <input name="cicle" type="text" placeholder="Cicle que es vol matricular" required/><br/>
+
+        <br/><input type="submit" value="submit"/><br/>
+    </fieldset>
+</form>
+</body>
+</html>
