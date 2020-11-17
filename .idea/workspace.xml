@@ -17,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1jEgkAutPaRHBC3ch9S16Q7rizJ" />
   <component name="ProjectViewState">
@@ -27,7 +30,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -44,6 +47,7 @@
       <workItem from="1605284391386" duration="3997000" />
       <workItem from="1605292853462" duration="158000" />
       <workItem from="1605634886361" duration="3741000" />
+      <workItem from="1605648891467" duration="26000" />
     </task>
     <servers />
   </component>
