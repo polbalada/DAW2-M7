@@ -89,37 +89,37 @@ class Persona{
 $p=new Persona($_POST["nom"],$_POST["cognoms"],$_POST["dataNaixement"],$_POST["correu"],$_POST["telef"],$_POST["codiPostal"],$_POST["dni"],$_POST["cicle"]);
 //echo $p->getNom();
 ?>
-<table border="black" align="center" >
+<table border="black" align="center">
     <tr>
         <th>Nom</th>
-        <td><?php $p->getNom();?></td>
+        <td><?php echo $p->getNom();?></td>
     </tr>
     <tr>
         <th>Cognoms</th>
-        <td></td>
+        <td><?php echo $p->getCognoms();?></td>
     </tr>
     <tr>
         <th>Data de Naixement</th>
-        <td></td>
+        <td><?php echo $p->getDataNeixament();?></td>
     </tr>
     <tr>
         <th>Correu</th>
-        <td></td>
+        <td><?php echo $p->getCorreuElectronic();?></td>
     </tr>
     <tr>
         <th>Telefon</th>
-        <td></td>
+        <td><?php echo $p->getTelefon();?></td>
     </tr>
     <tr>
         <th>Codi Postal</th>
-        <td></td>
+        <td><?php echo $p->getAdreçaPostal();?></td>
     </tr>
     <tr>
         <th>DNI</th>
-        <td></td>
+        <td><?php echo $p->getDni();?></td>
     </tr>
     <tr>
         <th>Cicle</th>
-        <td></td>
+        <td><?php echo $p->getCicle();?></td>
     </tr>
 </table>
