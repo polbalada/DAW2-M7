@@ -49,6 +49,7 @@
       <workItem from="1605634886361" duration="3741000" />
       <workItem from="1605648891467" duration="26000" />
       <workItem from="1605722156644" duration="6185000" />
+      <workItem from="1605796821454" duration="4735000" />
     </task>
     <servers />
   </component>
@@ -78,11 +79,11 @@
     </state>
     <state x="651" y="170" key="FileChooserDialogImpl/-4096.-1539.2048.1060/0.0.1920.1040@0.0.1920.1040" timestamp="1605725041642" />
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605634997114" />
-    <state x="727" y="410" key="NewPhpFileDialog" timestamp="1605727882934">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1605798726191">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="727" y="410" key="NewPhpFileDialog/-4096.-1539.2048.1060/0.0.1920.1040@0.0.1920.1040" timestamp="1605727882934" />
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1605286727210" />
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1605798726191" />
     <state x="406" y="108" width="653" height="512" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1605637743714">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

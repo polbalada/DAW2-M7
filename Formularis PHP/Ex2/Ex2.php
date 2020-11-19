@@ -87,7 +87,7 @@ class Persona{
 }
 
 $p=new Persona($_POST["nom"],$_POST["cognoms"],$_POST["dataNaixement"],$_POST["correu"],$_POST["telef"],$_POST["codiPostal"],$_POST["dni"],$_POST["cicle"]);
-//echo $p->getNom();
+
 ?>
 <table border="black" align="center">
     <tr>
