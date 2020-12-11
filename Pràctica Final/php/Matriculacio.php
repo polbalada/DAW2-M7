@@ -5,8 +5,26 @@
     <title>Login</title>
 </head>
 <body>
-<form action="Matriculacio.php" method="POST">
-    <?php   //echo $_POST['nom'] , $_POST['dataNaixement'], $_POST['correu'];?>
+<form action="../index.htm" method="POST">
+    <?php
+        include 'Class/Alumne.php';
+        session_start();
+
+        $_SESSION['nom']= $_POST['nom'];
+        $_SESSION['dataNaixement']= $_POST['dataNaixement'];
+        $_SESSION['correu']= $_POST['correu'];
+        $a = new Alumne($_SESSION['usuari'],$_SESSION['clau'],$_SESSION['nom'],$_SESSION['dataNaixement'],$_SESSION['correu']);
+
+        if (!isset($_SESSION['alumnes'])){
+            $_SESSION['alumnes'] = [];
+        }
+        array_push($_SESSION['alumnes'],$a);
+        $prova= $_SESSION['alumnes'];
+        foreach ($prova as $u){
+            echo $u . "<br>";
+        }
+        
+    ?>
     <fieldset>
         <legend>Assignatures:</legend>
             <fieldset>

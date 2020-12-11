@@ -9,7 +9,7 @@
     <?php
         session_start();
         $_SESSION['usuari']=$_POST['usuari'];
-        $_SESSION['usuari']=$_POST['clau'];
+        $_SESSION['clau']=$_POST['clau'];
     ;?>
     <fieldset>
         <legend>Dades:</legend>
