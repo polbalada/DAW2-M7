@@ -32,8 +32,7 @@ class Alumne {
     }
 
     public function afegirAssignatura($assignatura){
-        array_push($this->assigatures,$assignatura);
+        $this->assigatures[$assignatura] = new Assignatura($assignatura);
     }
-
 
 }

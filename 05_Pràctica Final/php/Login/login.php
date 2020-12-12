@@ -12,7 +12,7 @@
             $_SESSION['error']="";
         }
     ;?>
-    <form action="#" method="POST">
+    <form action="notes.php" method="POST">
         <fieldset>
             <legend>Login:</legend>
             <input name="usuari" type="text" required/><br/>
