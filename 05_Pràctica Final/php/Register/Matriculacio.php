@@ -19,7 +19,7 @@
             $_SESSION['alumnes'] = [];
         }
         array_push($_SESSION['alumnes'],$a);
-        /*//PROVES  
+        /*//PROVES
         $prova= $_SESSION['alumnes'];
         foreach ($prova as $u){
             echo $u . "<br>";
