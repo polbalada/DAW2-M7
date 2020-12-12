@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Login</title>
+    <title>Matriculació</title>
 </head>
 <body>
-<form action="../index.htm" method="POST">
+<form action="final.php" method="POST">
     <?php
-        include 'Class/Alumne.php';
+        include '../Class/Alumne.php';
         session_start();
 
         $_SESSION['nom']= $_POST['nom'];

@@ -1,10 +1,13 @@
 <?php
+include 'Assignatura.php';
 class Alumne {
     public $usuari;
     public $clau;
     public $nom;
     public $dataNaixement;
     public $correu;
+
+    public $assigatures = [];
 
     /**
      * Alumne constructor.
@@ -26,6 +29,10 @@ class Alumne {
     public function __toString()
     {
         return "Usuari: $this->usuari, Clau: $this->clau, Nom: $this->nom, Data de Naixement: $this->dataNaixement, Correu: $this->correu";
+    }
+
+    public function afegirAssignatura($assignatura){
+        array_push($this->assigatures,$assignatura);
     }
 
 
