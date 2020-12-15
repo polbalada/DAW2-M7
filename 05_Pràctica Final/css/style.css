@@ -1,0 +1,26 @@
+body{
+    background-color: lightgrey;
+}
+a:link, a:visited {
+    background-color: whitesmoke;
+    color: black;
+    padding: 48px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: black;
+    color: white;
+}
+
+#botons{
+    margin-top: 15% ;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+}
+fieldset{
+    background-color: whitesmoke;
+}

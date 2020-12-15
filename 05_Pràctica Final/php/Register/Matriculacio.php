@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Matriculació</title>
+    <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>
 <form action="final.php" method="POST">
@@ -94,6 +95,7 @@
                 <input type="checkbox" id="M06_UF4" name="M06_UF4" value="M06_UF4">
                 <label for="M06_UF4"> M06_UF4</label><br>
             </fieldset>
+
         <input type="submit" value="Enviar"/><br/>
     </fieldset>
 </form>

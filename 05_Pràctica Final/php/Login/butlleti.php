@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
 <?php
 include '../Class/Alumne.php';
 session_start();
@@ -16,7 +25,7 @@ echo "<br>";
 $i=0;
 
 foreach ($_POST as $x){
-    $a[$i]->setNota($x);
+    $a[array_keys($_POST)[$i]]->setNota($x);
     $i++;
 }
 
@@ -37,3 +46,7 @@ foreach ($a as $x){
 }
 
 echo "</table>";
+
+?>
+</body>
+</html>

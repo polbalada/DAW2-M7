@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notes</title>
+    <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>
     <?php
@@ -42,7 +43,7 @@
     <li>Correu: $dades->correu</li>
 </div>
 <div id='notes'>
-    <form action='butlleti.php' method='post'>";
+    <form action='butlleti.php' method='POST'>";
             foreach ($dades->assigatures as $x){
                 echo "$x->nom <input name='$x->nom' type='text' placeholder='Nota' required/><br/>";
             }
