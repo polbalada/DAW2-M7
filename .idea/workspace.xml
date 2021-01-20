@@ -31,7 +31,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../xampp/php/php.ini" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/LeoEresUnGrande" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -67,6 +67,7 @@
       <workItem from="1607761726947" duration="9774000" />
       <workItem from="1607779257500" duration="13324000" />
       <workItem from="1607803618303" duration="5699000" />
+      <workItem from="1610473694085" duration="1318000" />
     </task>
     <servers />
   </component>
@@ -92,11 +93,11 @@
     </state>
     <state x="488" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1607706492920" />
     <state x="686" y="66" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607800108351" />
-    <state x="651" y="170" key="FileChooserDialogImpl" timestamp="1605725041642">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1610479134874">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="651" y="170" key="FileChooserDialogImpl/-4096.-1539.2048.1060/0.0.1920.1040@0.0.1920.1040" timestamp="1605725041642" />
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605634997114" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1610479134874" />
     <state x="676" y="243" key="NewPhpClassDialog" timestamp="1607765982634">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
