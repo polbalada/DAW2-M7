@@ -28,10 +28,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/LeoEresUnGrande" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -68,58 +70,13 @@
       <workItem from="1607779257500" duration="13324000" />
       <workItem from="1607803618303" duration="5699000" />
       <workItem from="1610473694085" duration="1318000" />
+      <workItem from="1615409351721" duration="94000" />
+      <workItem from="1615409601360" duration="64000" />
+      <workItem from="1615409881560" duration="1441000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="568" y="125" key="#CLI_Interpreters" timestamp="1605725046108">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="568" y="125" key="#CLI_Interpreters/-4096.-1539.2048.1060/0.0.1920.1040@0.0.1920.1040" timestamp="1605725046108" />
-    <state x="140" y="100" key="#PHP" timestamp="1605725051206">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="140" y="100" key="#PHP/-4096.-1539.2048.1060/0.0.1920.1040@0.0.1920.1040" timestamp="1605725051206" />
-    <state x="390" y="7" key="#PHP/0.0.1366.728@0.0.1366.728" timestamp="1603375118963" />
-    <state x="242" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605722720787">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="242" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog/-4096.-1539.2048.1060/0.0.1920.1040@0.0.1920.1040" timestamp="1605722720787" />
-    <state x="686" y="66" key="#com.intellij.ide.util.MemberChooser" timestamp="1607800108351">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="488" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1607706492920" />
-    <state x="686" y="66" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607800108351" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1610479134874">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="651" y="170" key="FileChooserDialogImpl/-4096.-1539.2048.1060/0.0.1920.1040@0.0.1920.1040" timestamp="1605725041642" />
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1610479134874" />
-    <state x="676" y="243" key="NewPhpClassDialog" timestamp="1607765982634">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="676" y="243" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607765982634" />
-    <state x="727" y="410" key="NewPhpFileDialog" timestamp="1607798530688">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="727" y="410" key="NewPhpFileDialog/-4096.-1539.2048.1060/0.0.1920.1040@0.0.1920.1040" timestamp="1605727882934" />
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1607704623221" />
-    <state x="727" y="410" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607798530688" />
-    <state x="406" y="108" width="653" height="512" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1605637743714">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="406" y="108" width="653" height="512" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1605637743714" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1607705921971">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1607705921971" />
-    <state x="486" y="70" width="945" height="969" key="search.everywhere.popup" timestamp="1607810978719">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1605286854542" />
-    <state x="486" y="70" width="945" height="969" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607810978719" />
   </component>
 </project>
