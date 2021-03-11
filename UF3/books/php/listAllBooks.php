@@ -1,5 +1,5 @@
 <?php
-$cadena_conexio = 'mysql:dbname=Books;host=127.0.0.1:port=3306';
+$cadena_conexio = 'mysql:dbname=books;port=3306;host=127.0.0.1';
 $usuari = 'root';
 $pswd = '';
 try {
@@ -8,12 +8,14 @@ try {
     $sql = `SELECT title, author, year, price FROM books`;
 
     $llibres = $db->query($sql);
+    print_r($llibres);
 
     echo "<table>";
-    foreach ($llibres as $llibre){
+    /*foreach ($llibres as $llibre){
         echo "<td><tr>" . $llibre['title'] . "</tr></td>";
-    }
+    }*/
     echo "</table>";
 }catch (PDOException $e){
-    echo "ERROr";
+    echo $e;
+    echo "ERROR";
 }

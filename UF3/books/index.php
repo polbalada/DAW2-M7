@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-    <h1>as</h1>
+    <h1>Llibres</h1>
     <?php
     include_once ("./php/listAllBooks.php");
     ?>
