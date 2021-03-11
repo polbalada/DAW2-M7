@@ -14,6 +14,7 @@
           <node kind="schema">
             <name qname="@" />
             <name qname="todolist" />
+            <name qname="books" />
           </node>
         </introspection-scope>
       </schema-mapping>
