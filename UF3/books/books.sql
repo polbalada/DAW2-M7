@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Temps de generació: 11-03-2021 a les 12:11:15
+-- Temps de generació: 11-03-2021 a les 16:26:42
 -- Versió del servidor: 10.4.14-MariaDB
 -- Versió de PHP: 7.2.33
 
@@ -24,34 +24,33 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Estructura de la taula `books`
+-- Estructura de la taula `table_books`
 --
 
-CREATE TABLE `books` (
+CREATE TABLE `table_books` (
   `book_id` bigint(20) NOT NULL,
   `title` varchar(64) DEFAULT NULL,
   `author` varchar(64) DEFAULT NULL,
   `year` year(4) DEFAULT NULL,
-  `price` decimal(5,2) DEFAULT NULL
+  `price` decimal(6,2) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Bolcament de dades per a la taula `books`
+-- Bolcament de dades per a la taula `table_books`
 --
 
-INSERT INTO `books` (`book_id`, `title`, `author`, `year`, `price`) VALUES
-(1, 'Desarroyo Web con PHP', 'Manolo', 2005, '59.99'),
-(2, 'Harry Potter', 'J.K. Rowling', 1997, '29.99'),
-(3, 'Harry Potter 2', 'J.K. Rowling', 1998, '29.99');
+INSERT INTO `table_books` (`book_id`, `title`, `author`, `year`, `price`) VALUES
+(1, 'Desarrollo Web con PHP y MySQL', 'Eustaquio', 2005, '59.99'),
+(2, 'Desarrollo Web con PHP y MySQL 2', 'Eustaquio', 2005, '59.99');
 
 --
 -- Índexs per a les taules bolcades
 --
 
 --
--- Índexs per a la taula `books`
+-- Índexs per a la taula `table_books`
 --
-ALTER TABLE `books`
+ALTER TABLE `table_books`
   ADD PRIMARY KEY (`book_id`);
 
 --
@@ -59,10 +58,10 @@ ALTER TABLE `books`
 --
 
 --
--- AUTO_INCREMENT per la taula `books`
+-- AUTO_INCREMENT per la taula `table_books`
 --
-ALTER TABLE `books`
-  MODIFY `book_id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+ALTER TABLE `table_books`
+  MODIFY `book_id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
