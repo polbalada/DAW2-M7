@@ -5,13 +5,17 @@ $pswd = '';
 try {
     $db = new PDO($cadena_conexio, $usuari, $pswd);
 
-    $sql = 'SELECT title, author, year, price FROM table_books';
+    $sql = 'SELECT titulo, table_genero.nombre AS genero, table_editorial.nombre AS editorial
+FROM table_libros
+INNER JOIN table_genero ON table_libros.id_genero=table_genero.id_genero
+INNER JOIN table_editorial ON table_libros.id_editorial=table_editorial.id_editorial;';
 
     $llibres = $db->query($sql);
 
     echo "<table border=1px>";
+    echo "<tr><th>titulo</th><th>genero</th><th>editorial</th></tr>";
     foreach ($llibres as $llibre){
-        echo "<tr><td>" . $llibre['title'] . "</td><td>" . $llibre['author'] ."</td></tr>";
+        echo "<tr><td>" . $llibre['titulo'] . "</td><td>" . $llibre['genero'] ."</td><td>" . $llibre['editorial'] . "</td></tr>";
     }
     echo "</table>";
 }catch (PDOException $e){

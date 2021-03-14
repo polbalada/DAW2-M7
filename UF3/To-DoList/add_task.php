@@ -1,6 +1,6 @@
 <?php
 
-//add_task.php
+//afegir.php
 
 include('open_db.php');
 

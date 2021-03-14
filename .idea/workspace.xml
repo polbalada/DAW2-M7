@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="829f07f6-e86d-4775-b9de-dc54e9658a50" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5771b2f3-46d0-4778-a5a7-1bcd191bc410.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5771b2f3-46d0-4778-a5a7-1bcd191bc410.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UF3/books/php/conexio_bd.php" beforeDir="false" afterPath="$PROJECT_DIR$/UF3/books/php/conexio_bd.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UF3/books/php/listAllBooks.php" beforeDir="false" afterPath="$PROJECT_DIR$/UF3/books/php/listAllBooks.php" afterDir="false" />
-    </list>
+    <list default="true" id="829f07f6-e86d-4775-b9de-dc54e9658a50" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,32 +74,12 @@
       <workItem from="1615409601360" duration="64000" />
       <workItem from="1615409881560" duration="1441000" />
       <workItem from="1615455005052" duration="7547000" />
+      <workItem from="1615540302994" duration="6582000" />
+      <workItem from="1615635993840" duration="16376000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="905" height="179" key="GridCell.Tab.0.bottom" timestamp="1615474455584">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="905" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615474455584" />
-    <state width="905" height="179" key="GridCell.Tab.0.center" timestamp="1615474455584">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="905" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1615474455584" />
-    <state width="905" height="179" key="GridCell.Tab.0.left" timestamp="1615474455568">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="905" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1615474455568" />
-    <state width="905" height="179" key="GridCell.Tab.0.right" timestamp="1615474455584">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="905" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1615474455584" />
-    <state x="292" y="53" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1615474287174">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="292" y="53" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1615474287174" />
   </component>
 </project>
