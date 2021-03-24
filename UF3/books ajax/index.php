@@ -30,7 +30,7 @@
                 <option value="4">Barco de Vapor</option>
                 <option value="5">McGraw Hill</option>
             </select>
-            <input type="button" name="submit" id="submit" placeholder="Afegir">
+            <input type="button" name="submit" id="submit" value="Afegir">
         </fieldset>
     </form>
     <table id="llibres" border=1px></table>
