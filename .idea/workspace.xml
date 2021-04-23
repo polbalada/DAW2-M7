@@ -30,6 +30,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -79,6 +80,7 @@
       <workItem from="1615540302994" duration="6582000" />
       <workItem from="1615635993840" duration="16376000" />
       <workItem from="1616522484601" duration="798000" />
+      <workItem from="1618494465551" duration="2304000" />
     </task>
     <servers />
   </component>
